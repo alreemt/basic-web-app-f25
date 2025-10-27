@@ -19,9 +19,5 @@ export default function QueryProcessor(query: string): string {
   return "alreemt";  
 }
 
-if (query.toLowerCase().includes("name")) {
-  return "alreem";  
-}
-
   return "";
 }
